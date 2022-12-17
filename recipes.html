@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <Title>Nutritious Recipes</Title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <meta name="description" content="Nutritious meals are significant when it comes to fat loss. You can incorporate our nutrientious recipes in your diet to enjoy tasty meals, contribute to your fat-loss journey, and eat your favorite dishes GUILT_FREE! ">
+        <meta name="keywords" content="nutrientious, nutrients, fat-loss, lean, protein, carbs, fat, recipes, meal, healthy">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+             .gallery{ 
+                display: grid; 
+                grid-template-columns: repeat(auto-fill, minmax(200px, 2fr)); 
+                grid-auto-rows: .5fr; 
+                grid-gap: 1em; 
+                grid-auto-flow: dense;
+            } 
+            .gallery > figure{ 
+                margin: 0; 
+                /*setup a flex container*/ 
+                display: flex; 
+                flex-direction: column; 
+            } 
+            
+            .gallery img{ 
+                max-width: 100%; 
+                flex: 1; 
+                object-fit: cover; 
+            } 
+            
+            .gallery figcaption{ 
+                padding: .3em .8em; 
+                background-color: rgba(0, 0, 0, .5); 
+                color: white; 
+                text-align: right; 
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="getlean.html">Home</a></li>
+                    <li><a href="exercise.html">Exercises</a></li>
+                    <li><a href="supplements.html">Supplements</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="supplies.html">Accessories</a></li>
+                </ul>
+            </nav>
+            <h1>Balanced Diet</h1>
+        </header>
+        <main>
+            <h2>Nutrition Changes To Make</h2>
+
+            <h3>Be Mindful of What You Eat</h3>
+            <p>Your nutrition macros matter!It's simple to settle down with a bag of any available food after a long day, but continuing this unhealthy behavior might cause you to gain weight and have an adverse effect on your attempts to get skinny. Staying away from eating in front of the TV, computer, or while driving in order to limit the amount of calories consumed. To help yourself through this process of keeping track of what you eat, download apps that track your meals and estimate your macros.</p>
+
+            <h3>Portion Control</h3>
+            <p>Eat what you measure! You occasionally eat more calories than you anticipate. Therefore, it's crucial to employ precise measurement equipment. For instance, a modest two tablespoons, or about the size of a golf ball, constitutes a serving of nuts or nut butter. It's simple to see someone spreading 1/3 to 1/2 cup of almond butter on toast or packing </p>
+
+            <h2>High-Protein Meals for Fat Loss</h2>
+
+           
+            <!--Add gallery of dishes-->
+            <div class="gallery">
+                <figure><img src="images/stuffedpeppersoup.jpg" alt="pumpkin"><figcaption><a href="https://www.eatingwell.com/recipe/7916302/stuffed-pepper-soup/">Stuffed Pepper Soup</a></figcaption></figure>
+                <figure><img src="images/pasta.jpg" alt="pumpkin"><figcaption><a href="https://www.eatingwell.com/recipe/276095/spinach-artichoke-dip-pasta/">Spinach & Artichoke Dip Pasta</a></figcaption></figure>
+                <figure><img src="images/hummus.jpg" alt="pumpkin"><figcaption><a href="https://www.eatingwell.com/recipe/281045/chicken-hummus-bowls/">Chicken Hummus Bowls</a></figcaption></figure>
+                <figure><img src="images/taco.jpg" alt="pumpkin"><figcaption><a href="https://www.eatthis.com/black-bean-sweet-potato-taco-recipe/">Black Bean and Sweet Potato Tacos</a></figcaption></figure>
+                <figure><img src="images/Rueben.jpg" alt="pumpkin"><figcaption><a href="https://www.eatthis.com/turkey-reuben-sandwich-recipe/">Low-Calorie Turkey Rueben</a></figcaption></figure>
+                <figure><img src="images/chickenburger.jpg" alt="pumpkin"><figcaption><a href="https://www.eatthis.com/chicken-burger-sun-dried-tomato-aioli-recipe/">Chicken Burger with Sun-dried Tomato Aioli</a></figcaption></figure>
+                <figure><img src="images/Panini.jpg" alt="pumpkin"><figcaption><a href="https://www.eatthis.com/panini-recipe-with-provolone-peppers-arugula/">Panini with Provolone</a></figcaption></figure>
+                <figure><img src="images/oat.jpg" alt="pumpkin"><figcaption><a href="https://feelgoodfoodie.net/recipe/overnight-oats/#wprm-recipe-container-8144">Overnight Oats</a></figcaption></figure>
+             </div>
+        </main>
+        <footer>
+            <p>Webmaster 11/30/2022</p>
+        </footer>
+    </body>
+</html>

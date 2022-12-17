@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+ul,li,p{margin:0;padding:0;}
+header{
+    width: 100%;
+    height: 30vh; 
+    background-color: rgb(230, 178, 210);
+  
+
+}
+body{
+    background-color: rgb(230, 193, 226);
+    color:rgb(2, 2, 2);
+    
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(192, 45, 133);
+    text-shadow: 5px 5px rgb(4, 4, 5);
+    text-shadow: 2px 2px rgb(136, 53, 32);
+
+}
+header nav {
+    background: linear-gradient(to bottom, rgb(245, 178, 225) 0%,rgba(138, 87, 139, 0.8) 10%,rgba(160, 29, 110, 0.8) 90%,#d2dfdf 100%);
+     height: auto;
+     padding: 10px;
+     text-align: center;
+ }
+ 
+header nav ul{
+    list-style-type: none;
+}
+header nav ul>li {
+    display: inline-block;
+    width: 15%;
+}
+footer{
+    float: left;
+    clear:left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+    background:  rgb(230, 178, 210);;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(7, 7, 7);
+      
+   
+}
+a:link{text-decoration: none;color: rgb(167, 48, 137);}
+a:visited {text-decoration: none;color: rgb(122, 11, 63);}
+a:hover {text-decoration: none;color: rgb(233, 56, 203);}
+
+@media only screen and (min-width:601px){
+    body{
+        padding: 0;
+        margin: 3px;
+    } 
+    .col1{
+        width: 25%;
+        float: left;
+        padding: 1em;
+      }
+      .col2{
+        width: 25%;
+        float: left;
+        padding: 1em;
+      }
+     
+      .col3{
+
+        width: 25%;
+        float: left;
+        padding: 1em;
+        
+    }
+    .col4{
+        width:25%;
+        float: left;
+        padding: 1em;
+      }
+      img{
+        width:25vw;
+        height:auto;}
+}
+@media only screen and (min-width:601px)and (max-width:1024px){
+    body{
+        
+        padding: 0;
+        margin: 3px;
+    } 
+    .col1{
+        width: 50%;
+        float: left;
+        padding: 1em;
+      }
+      .col2{
+        width: 50%;
+        float: left;
+        padding: 1em;
+      }
+      .col3{
+        width:50%;
+        float: left;
+        padding: 1em;
+      }
+      .col4{
+        width:50%;
+        float: left;
+        padding: 1em;
+      }
+      img{
+        width:20vw;
+        height:auto;}
+     
+   
+}
+@media only screen and (max-width:600px){
+    body{
+        
+        padding: 5px;
+        margin: 5px;
+    }
+    img{
+        width:28vw;
+        height:auto;
+    }
+    
+
+}
+
+
